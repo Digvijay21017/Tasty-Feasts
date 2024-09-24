@@ -20,7 +20,7 @@ export default function Checkout() {
   const userProgressCtx = useContext(UserProgressContext);
 
   const { data, isLoading, error, sendRequest, clearData } = useHttp(
-    "http://localhost:3000/orders",
+    "https://tasty-feasts-1.onrender.com/orders",
     reqConfig
   );
 
